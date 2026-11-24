@@ -1,0 +1,37 @@
+
+# Android Studio
+*.iml
+.gradle/
+local.properties
+.idea/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# FastAPI
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# PostgreSQL backups
+*.sql
+*.dump
+
+# Uploaded documents
+backend/uploads/*
+
+# Temporary files
+.DS_Store
+Thumbs.db
+*.log
